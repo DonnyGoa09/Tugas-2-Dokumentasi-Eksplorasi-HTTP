@@ -65,6 +65,11 @@ pass 5
 fail 0
 ```
 
+Pengujian manual juga dijalankan melalui Postman Web menggunakan Postman
+Desktop Agent agar request dapat mencapai server lokal. Collection yang dipakai
+adalah `postman/Tugas-2-HTTP.postman_collection.json` dengan variable
+`base_url = http://127.0.0.1:3000`.
+
 ### Success response — mengambil daftar tugas
 
 Request:
@@ -97,6 +102,11 @@ Status: `200 OK`
   }
 }
 ```
+
+Bukti Postman berikut memperlihatkan method `GET`, URL `/api/tasks`, status
+`200 OK`, waktu response, ukuran response, dan body JSON yang diterima.
+
+![Bukti success response 200 di Postman](images/postman-success-200.png)
 
 ### Success response — membuat tugas
 
@@ -155,6 +165,13 @@ Status `422` dipilih karena JSON dapat dibaca secara sintaksis, tetapi nilainya
 tidak memenuhi aturan contract. Skenario error tambahan yang tersedia pada
 automated test dan Postman collection adalah task yang tidak ada (`404`) serta
 media type selain JSON (`415`).
+
+Bukti Postman berikut memperlihatkan method `POST`, URL `/api/tasks`, status
+`422 Unprocessable Entity`, dan body error `VALIDATION_ERROR`. Istilah status
+yang ditampilkan UI Postman mengikuti label bawaan client, sedangkan nilai
+status numeriknya tetap `422` sesuai API contract.
+
+![Bukti error response 422 di Postman](images/postman-error-422.png)
 
 ## 6. Kesimpulan
 

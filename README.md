@@ -31,3 +31,6 @@ jalankan server, lalu pilih **Run collection**. Collection menggunakan variable
 
 Dokumentasi tugas dan API contract tersedia di
 [`docs/minggu-2.md`](docs/minggu-2.md).
+
+Screenshot pengujian Postman untuk response `200` dan `422` juga disertakan di
+folder [`docs/images`](docs/images).
