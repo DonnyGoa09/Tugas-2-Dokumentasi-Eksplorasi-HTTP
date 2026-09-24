@@ -183,6 +183,17 @@ response menggunakan nama field serta status code yang sama.
 
 ## 7. Referensi
 
+### Referensi utama kelas
+
+- [Materi 1 — API dalam Sistem Modern](https://app.notion.com/p/Materi-1-API-dalam-Sistem-Modern-26c8bda175f98119acdef67232f637d0)
+- [Praktikum 1 — Audit API dengan Postman](https://app.notion.com/p/Praktikum-1-Audit-API-dengan-Postman-26c8bda175f981a9a0e0c121c9355b32)
+- [Tugas 1 — Audit API dan Ide Proyek Semester](https://app.notion.com/p/Tugas-1-Audit-API-dan-Ide-Proyek-Semester-3d78bda175f98117b123c21f376e893c)
+- [Materi 2 — HTTP, REST, JSON, dan Status Code](https://app.notion.com/p/Materi-2-HTTP-REST-JSON-dan-Status-Code-26c8bda175f9806cba15c1f99e022acd)
+- [Praktikum 2 — Eksplorasi HTTP dengan Postman](https://app.notion.com/p/Praktikum-2-Eksplorasi-HTTP-dengan-Postman-26c8bda175f980b7873ffe5830138835)
+- [Tugas 2 — Dokumentasi Eksplorasi HTTP](https://app.notion.com/p/Tugas-2-Dokumentasi-Eksplorasi-HTTP-2738bda175f98090a791d1161e9769f0)
+
+### Referensi teknis tambahan
+
 - [Node.js HTTP documentation](https://nodejs.org/api/http.html)
 - [MDN HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status)
 - [Postman: Write scripts to test API response data](https://learning.postman.com/docs/tests-and-scripts/write-scripts/test-scripts/)
@@ -192,8 +203,13 @@ Referensi diakses pada 24 September 2026.
 
 ## 8. Deklarasi penggunaan AI
 
-AI digunakan sebagai alat bantu untuk menyusun struktur implementasi, meninjau
-konsistensi API contract, membuat skenario pengujian, dan merapikan dokumentasi.
-Seluruh kode, request Postman, response, dan hasil test tetap diperiksa serta
-dapat dijalankan ulang oleh mahasiswa. Tidak ada API key, token, password,
-cookie, atau secret yang dimasukkan ke repository.
+Saya menggunakan AI sebagai alat bantu untuk menyusun struktur implementasi,
+meninjau konsistensi API contract, membuat skenario pengujian, dan merapikan
+dokumentasi. Saya tetap memperhatikan materi dan praktikum yang diberikan,
+memeriksa setiap saran atau hasil dari AI, serta membandingkannya dengan
+referensi kelas dan dokumentasi teknis lainnya. Saya juga menjalankan sendiri
+endpoint, automated test, dan Postman collection untuk memastikan success
+response, error response, status code, dan body JSON sesuai dengan API
+contract. Saya memahami hasil yang dikumpulkan dan bertanggung jawab atas isi
+repository ini. Tidak ada API key, token, password, cookie, atau secret yang
+dimasukkan ke repository.
